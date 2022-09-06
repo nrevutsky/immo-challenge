@@ -1,7 +1,7 @@
 Clone this project and create a new repo, please don't use a fork otherwise other candidates will be able to see your result. 
 
 ### Main Task
-- You can find the basic puppeteer runner inside index.js file
+- You can find the basic puppeteer runner inside index.module.ts file
 - You need to return values from page which URL defined in PAGE_URL variable
 - You need to save values into JSON file in the root folder of the project
 
@@ -18,3 +18,9 @@ Clone this project and create a new repo, please don't use a fork otherwise othe
 - Rewrite this code to typescript.
 
 Push your code to Github and share the link with us. Good luck with your challenge. 
+
+### Run App
+- npm i
+- npm run build
+- npm run start
+- data.json file with data created

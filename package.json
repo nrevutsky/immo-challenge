@@ -2,13 +2,18 @@
   "name": "assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "node index.js"
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs": "0.0.1-security",
     "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
   }
 }
